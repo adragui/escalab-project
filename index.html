@@ -4,35 +4,52 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+            integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
         <link rel="stylesheet" href="./src/styles/navbar.css" />
+        <link rel="stylesheet" href="./src/styles/header.css" />
         <title>Adragui Store</title>
     </head>
     <body>
         <!-- Navbar -->
-        <nav class="navbar">
-            <figure>
-                <img
-                    id="main-logo"
-                    src="./public/assets/logo1.png"
-                    alt="logo"
-                />
-            </figure>
-            <ul class="containItem">
-                <li class="item">
-                    <a href="#">Home</a>
-                </li>
-                <li class="item">
-                    <a href="#">About</a>
-                </li>
-                <li class="item">
-                    <a href="#">Contact</a>
-                </li>
-                <li class="item">
-                    <a href="#">Login</a>
-                </li>
-            </ul>
+        <nav>
+            <div class="navbar">
+                <div class="container">
+                    <a href="" class="logo"
+                        ><img src="./public/assets/logo1.png" alt=""
+                    /></a>
+                    <div class="menu">
+                        <a href="#">Home</a>
+                        <a href="#">Menu 2</a>
+                        <a href="#">Menu 3</a>
+                        <a href="#"
+                            ><i class="fa-solid fa-cart-shopping"></i
+                        ></a>
+                    </div>
+                </div>
+            </div>
         </nav>
-        <!-- Header -->
-        <header></header>
+        <!-- Hero -->
+        <section class="hero">
+            <div class="container">
+                <div class="text">
+                    <h1>Welcome to my website</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua.
+                    </p>
+                    <a href="#" class="button">Learn more</a>
+                </div>
+                <div class="photo">
+                    <img src="./public/assets/foto.png" alt="Hero photo" />
+                </div>
+            </div>
+        </section>
     </body>
 </html>
